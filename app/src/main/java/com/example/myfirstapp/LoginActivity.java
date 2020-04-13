@@ -23,18 +23,19 @@ public class LoginActivity extends AppCompatActivity {
     EditText emailId, password;
     Button btnSignIn;
     TextView tvSignUp;
-    FirebaseAuth mFireBaseAuth;
+    private FirebaseAuth mFireBaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        mFireBaseAuth = FirebaseAuth.getInstance();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
         emailId = findViewById(R.id.editText);
         password = findViewById(R.id.editText2);
         btnSignIn = findViewById(R.id.button);
-        tvSignUp = findViewById(R.id.textView);
+        tvSignUp = findViewById(R.id.textViewLogin);
 
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -100,6 +101,6 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        mFireBaseAuth.addAuthStateListener(mAuthStateListener);
+        FirebaseUser currentUser = mFireBaseAuth.getCurrentUser();
     }
 }

@@ -35,7 +35,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="99dp"
         android:layout_marginRight="99dp"
-        android:layout_marginBottom="37dp"
+        android:layout_marginBottom="35dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -45,12 +45,12 @@
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="125dp"
         android:layout_marginLeft="125dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="26dp"
         android:layout_marginEnd="125dp"
         android:layout_marginRight="125dp"
         android:layout_marginBottom="200dp"
@@ -63,17 +63,16 @@
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="162dp"
         android:layout_marginLeft="162dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="43dp"
         android:layout_marginEnd="162dp"
         android:layout_marginRight="162dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="38dp"
         android:text="Sign In"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/textViewLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
