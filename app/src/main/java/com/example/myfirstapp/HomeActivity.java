@@ -16,6 +16,10 @@ import com.google.firebase.auth.FirebaseAuth;
 public class HomeActivity extends AppCompatActivity {
 
     Button btnLogout;
+    Button btnCoreRequirements;
+    Button btnPrerequisites;
+    Button btnMajorReviews;
+
     FirebaseAuth mFireBaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
     @Override
@@ -23,6 +27,9 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         btnLogout = findViewById(R.id.logout);
+        btnCoreRequirements = findViewById(R.id.coreRequirementsButton);
+        btnPrerequisites = findViewById(R.id.prerequisiteButton);
+        btnMajorReviews = findViewById(R.id.majorReviewsButton);
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottonNavBar);
         android.view.Menu menu = bottomNavigationView.getMenu();
@@ -49,6 +56,14 @@ public class HomeActivity extends AppCompatActivity {
                         break;
                 }
                 return false;
+            }
+        });
+
+        btnPrerequisites.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toPrerequisiteScreen = new Intent(HomeActivity.this,PrerequisiteActivity.class);
+                startActivity(toPrerequisiteScreen);
             }
         });
 
