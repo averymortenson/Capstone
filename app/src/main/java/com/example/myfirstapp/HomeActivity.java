@@ -3,6 +3,7 @@ package com.example.myfirstapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.bluetooth.BluetoothClass;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
@@ -67,6 +68,22 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        btnCoreRequirements.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toCoreReqsScreen = new Intent(HomeActivity.this, CoreRequirementsActivity.class);
+                startActivity(toCoreReqsScreen);
+            }
+        });
+
+        btnMajorReviews.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toMajorReviews = new Intent(HomeActivity.this, MajorReviewsActivity.class);
+                startActivity(toMajorReviews);
+            }
+        });
+
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,5 +92,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intToLogin);
             }
         });
+
+
     }
 }

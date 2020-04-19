@@ -17,7 +17,7 @@ public class CSS142Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_css142);
 
-        backImg = (ImageView) findViewById(R.id.backButton);
+        backImg = (ImageView) findViewById(R.id.backImage);
 
         backImg.setOnClickListener(new View.OnClickListener() {
             @Override

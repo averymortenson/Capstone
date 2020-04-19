@@ -1,6 +1,7 @@
 package com.example.myfirstapp;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -8,23 +9,24 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class EnglishCompActivity extends AppCompatActivity {
+public class CSS343Activity extends AppCompatActivity {
 
-    ImageView backImg;
-
+    ImageView backI;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_englishcomp);
+        setContentView(R.layout.activity_css343);
 
-        backImg  = (ImageView) findViewById(R.id.backImage);
+        backI = (ImageView) findViewById(R.id.backImage);
 
-        backImg.setOnClickListener(new View.OnClickListener() {
+        backI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent toPrerequisiteActivity = new Intent(EnglishCompActivity.this,PrerequisiteActivity.class);
-                startActivity(toPrerequisiteActivity);
+                Intent toCoreReqs = new Intent(CSS343Activity.this, CoreRequirementsActivity.class);
+                startActivity(toCoreReqs);
             }
         });
+
+
     }
 }

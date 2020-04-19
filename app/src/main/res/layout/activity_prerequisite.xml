@@ -7,40 +7,40 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/englishCompTV"
+        android:id="@+id/css301TV"
         android:layout_width="350dp"
         android:layout_height="32dp"
         android:layout_marginBottom="35dp"
         android:text="English Composition"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/advancedCompositionTV"
+        app:layout_constraintBottom_toTopOf="@+id/css342TV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/advancedCompositionTV"
+        android:id="@+id/css342TV"
         android:layout_width="350dp"
         android:layout_height="32dp"
         android:layout_marginBottom="35dp"
         android:text="Advanced Composition"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/css142TV"
+        app:layout_constraintBottom_toTopOf="@+id/css343TV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/css142TV"
+        android:id="@+id/css343TV"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:layout_marginBottom="35dp"
         android:text="CSS142"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/css143TV"
+        app:layout_constraintBottom_toTopOf="@+id/css350TV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
@@ -54,7 +54,7 @@
         app:srcCompat="@drawable/backarrow46dp" />
 
     <TextView
-        android:id="@+id/PrerequisiteTitle"
+        android:id="@+id/coreReqsTile"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
@@ -67,46 +67,46 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/css143TV"
+        android:id="@+id/css350TV"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:layout_marginBottom="35dp"
         android:text="CSS143"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/stmath124TV"
+        app:layout_constraintBottom_toTopOf="@+id/css360TV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/stmath124TV"
+        android:id="@+id/css360TV"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:layout_marginBottom="35dp"
         android:text="STMATH 124"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/stmath125TV"
+        app:layout_constraintBottom_toTopOf="@+id/css370TV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/stmath125TV"
+        android:id="@+id/css370TV"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:layout_marginBottom="35dp"
         android:text="STMATH 125"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/statisticsTV"
+        app:layout_constraintBottom_toTopOf="@+id/css422TV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/statisticsTV"
+        android:id="@+id/css422TV"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:layout_marginBottom="80dp"

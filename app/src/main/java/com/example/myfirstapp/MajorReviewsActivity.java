@@ -8,22 +8,21 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class EnglishCompActivity extends AppCompatActivity {
+public class MajorReviewsActivity extends AppCompatActivity {
 
     ImageView backImg;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_englishcomp);
+        setContentView(R.layout.activity_majorreviews);
 
-        backImg  = (ImageView) findViewById(R.id.backImage);
+        backImg = (ImageView) findViewById(R.id.backImage);
 
         backImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent toPrerequisiteActivity = new Intent(EnglishCompActivity.this,PrerequisiteActivity.class);
-                startActivity(toPrerequisiteActivity);
+                Intent toHomeActivity = new Intent(MajorReviewsActivity.this, HomeActivity.class);
+                startActivity(toHomeActivity);
             }
         });
     }

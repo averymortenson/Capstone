@@ -1,10 +1,8 @@
 package com.example.myfirstapp;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,13 +25,13 @@ public class PrerequisiteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prerequisite);
 
-        tvEnglishComposition = findViewById(R.id.englishCompTV);
-        tvAdvancedComposition = findViewById(R.id.advancedCompositionTV);
-        tvCSS142 = findViewById(R.id.css142TV);
-        tvCSS143 = findViewById(R.id.css143TV);
-        tvSTMATH124 = findViewById(R.id.stmath124TV);
-        tvSTMATH125 = findViewById(R.id.stmath125TV);
-        tvStatistics = findViewById(R.id.statisticsTV);
+        tvEnglishComposition = findViewById(R.id.css301TV);
+        tvAdvancedComposition = findViewById(R.id.css342TV);
+        tvCSS142 = findViewById(R.id.css343TV);
+        tvCSS143 = findViewById(R.id.css350TV);
+        tvSTMATH124 = findViewById(R.id.css360TV);
+        tvSTMATH125 = findViewById(R.id.css370TV);
+        tvStatistics = findViewById(R.id.css422TV);
         backButton = (ImageView) findViewById(R.id.backImage);
 
         // go back to the home page via the back button.

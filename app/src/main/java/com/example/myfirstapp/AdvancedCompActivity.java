@@ -2,7 +2,6 @@ package com.example.myfirstapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -18,7 +17,7 @@ public class AdvancedCompActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_advancedcomp);
 
-        backImg = (ImageView) findViewById(R.id.backButton);
+        backImg = (ImageView) findViewById(R.id.backImage);
 
         backImg.setOnClickListener(new View.OnClickListener() {
             @Override

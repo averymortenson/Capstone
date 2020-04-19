@@ -17,7 +17,7 @@ public class StatisticsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_statistics);
 
-        backImg = (ImageView) findViewById(R.id.backButton);
+        backImg = (ImageView) findViewById(R.id.backImage);
 
         backImg.setOnClickListener(new View.OnClickListener() {
             @Override
