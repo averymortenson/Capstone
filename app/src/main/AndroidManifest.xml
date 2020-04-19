@@ -15,6 +15,13 @@
         <activity android:name=".MessageActivity" />
         <activity android:name=".UserActivity" />
         <activity android:name=".PrerequisiteActivity" />
+        <activity android:name=".EnglishCompActivity" />
+        <activity android:name=".AdvancedCompActivity" />
+        <activity android:name=".CSS142Activity" />
+        <activity android:name=".CSS143Activity" />
+        <activity android:name=".STMATH124Activity" />
+        <activity android:name=".STMATH125Activity" />
+        <activity android:name=".StatisticsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

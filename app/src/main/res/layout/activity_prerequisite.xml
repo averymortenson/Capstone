@@ -87,13 +87,13 @@
         android:text="STMATH 124"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/stmath125"
+        app:layout_constraintBottom_toTopOf="@+id/stmath125TV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/stmath125"
+        android:id="@+id/stmath125TV"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:layout_marginBottom="35dp"
